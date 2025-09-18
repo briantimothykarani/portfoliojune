@@ -1,34 +1,3 @@
-/*
-import { Link } from "react-router-dom";
-function Navbar() {
-    return (
-
-
-        <nav className="fixed top-0 w-full flex justify-between items-center p-2 z-20 bg-gray-900 bg-opacity-50">
-            <div className="text-2xl font-bold "> profile pic</div>
-            <div className="flex gap-6">
-                <Link to="/" className="text-white">
-                    home
-                </Link>
-
-
-                <Link to="/portfolio" className="text-white">
-                    projects
-                </Link>
-                <Link to="/contactme" className="text-white">
-                    contact me
-                </Link>
-
-            </div>
-            <div className="text-2xl font-bold">darkmode light mode</div>
-        </nav>
-
-
-    )
-}
-export default Navbar;
-*/
-
 
 
 import { Link, useLocation } from "react-router-dom";
@@ -77,9 +46,6 @@ function Navbar() {
                     Contact
                 </Link>
             </div>
-            <div><p className="
-            text-white text-l">Portfolio website</p></div>
-            {/* Theme toggle */}
 
         </nav>
     );
