@@ -1,7 +1,7 @@
 
 
 import { Link, useLocation } from "react-router-dom";
-
+import { motion} from "framer-motion";
 function Navbar() {
 
 
@@ -17,9 +17,12 @@ function Navbar() {
             <div className="flex items-center gap-3">
 
                 <img src='./images/brianportfolio.jpeg' alt='hero image' className='w-10 h-10 rounded-full border' />
-
-
-                <span className="text-white text-xl font-bold">Brian Timothy</span>
+                <motion.span
+                style={{ overflow: 'hidden', whiteSpace: 'nowrap' }}
+                initial={{ width: 0}}
+                  animate={{ width: "100%" }}
+                  transition={{ duration: 2, ease: "easeInOut" }}
+                  className="text-white text-xl font-bold">Brian Timothy</motion.span>
             </div>
 
             {/* Center Links */}

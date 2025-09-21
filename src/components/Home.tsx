@@ -16,11 +16,11 @@ const Home: React.FC = () => {
             >
                 <div className="text-center text-white space-y-4">
                     <p className="font-mono">My name is</p>
-                    <p className="text-4xl font-bold text-purple-700">Brian Timothy</p>
+                    <p className="text-4xl font-bold text-purple-800">Brian Timothy</p>
                     <p className="font-mono">I'm a</p>
-                    <p className="text-6xl font-black text-purple-700">Web Developer</p>
+                    <p className="text-6xl font-black text-purple-600">Web Developer</p>
                     <p className="font-mono">Based in</p>
-                    <p className="text-7xl font-bold text-purple-700">Nairobi, Kenya</p>
+                    <p className="text-7xl font-bold text-purple-400">Nairobi, Kenya</p>
                 </div>
             </motion.div>
 
