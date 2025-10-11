@@ -19,9 +19,11 @@ const router = createBrowserRouter([
   { path: '/contactme', element: <Contactme /> },
 ], { basename: "/portfoliojune" });
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+// 🛠️ FIX: Added the non-null assertion operator (!) to resolve the TypeScript error.
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+
 
