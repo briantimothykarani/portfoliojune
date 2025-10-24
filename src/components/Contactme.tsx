@@ -9,8 +9,9 @@ function Contactme() {
                     <p className="text-2xl font-bold mb-6 text-purple-400 text-center">Contact Me</p>
                     <hr />
                     <div className="flex flex-col sm:flex-row gap-4 items-center justify-center p-6">
+                        {/* Gmail */}
                         <a
-                            href="mailto:briantimothy@example.com"
+                            href="mailto:timothykaranibrian@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             title="Email Me"
@@ -20,8 +21,9 @@ function Contactme() {
                             Gmail
                         </a>
 
+                        {/* Upwork */}
                         <a
-                            href="https://www.upwork.com/freelancers/~your-upwork-profile"
+                            href="https://www.upwork.com/freelancers/~010c62adf19ba9a404"
                             target="_blank"
                             rel="noopener noreferrer"
                             title="Upwork"
@@ -31,26 +33,16 @@ function Contactme() {
                             Upwork
                         </a>
 
+                        {/* Twitter */}
                         <a
-                            href="https://www.fiverr.com/yourusername"
+                            href="https://x.com/briantimothy254"
                             target="_blank"
                             rel="noopener noreferrer"
-                            title="Fiverr"
+                            title="Twitter"
                             className="flex items-center gap-3 bg-white px-4 py-2 rounded text-green-600 hover:underline transition hover:scale-105 w-full sm:w-auto justify-center"
                         >
                             <img src="./images/twitter.png" alt="twitter" className="w-5 h-5" />
                             Twitter
-                        </a>
-
-                        <a
-                            href="https://www.linkedin.com/in/yourlinkedin"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            title="LinkedIn"
-                            className="flex items-center gap-3 bg-white px-4 py-2 rounded text-blue-700 hover:underline transition hover:scale-105 w-full sm:w-auto justify-center"
-                        >
-                            <img src="./images/linkedin.png" alt="linkedin" className="w-5 h-5" />
-                            LinkedIn
                         </a>
                     </div>
                 </div>
